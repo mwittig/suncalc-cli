@@ -1,0 +1,48 @@
+{
+  "name": "suncalc-cli",
+  "version": "0.0.1",
+  "description": "Suncalc Command Line Interface",
+  "homepage": "",
+  "repository": "Mardaneus86/suncalc-cli",
+  "author": {
+    "name": "Tim Klingeleers",
+    "email": "tim@klingeleers.be",
+    "url": "http://tim.klingeleers.be"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "suncalc",
+    "cli",
+    "sun",
+    "dusk",
+    "dawn"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "jshint-stylish": "^1.0.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "bin": {
+    "suncalc-cli": "lib/index.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "commander": "^2.8.1",
+    "suncalc": "^1.6.0"
+  }
+}
