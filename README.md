@@ -9,6 +9,8 @@
 Command line tool based on [Suncalc](https://github.com/mourner/suncalc) to be used 
 from command line.
 
+I created the tool for usage in a personal [Domoticz](http://www.domoticz.com/) home automation project.
+
 ## Installation
 
 Install as a global CLI tool
@@ -23,8 +25,11 @@ $ npm install -g suncalc-cli
 ```sh
 suncalc-cli azimuth [-l <latitude>,<longtitude>] [-d "<date>"] [-a]
 ```
-Date option is optional, defaults to the current datetime.
-Use -a to get the altitude at the given moment.
+Returns the azimuth or altitude.
+
+The location option is required.
+The date option is optional, defaults to the current datetime.
+Use -a to get the altitude of the sun.
 
 ## License
 
