@@ -36,13 +36,13 @@ The date option is optional, defaults to the current datetime.
 ### Get the azimuth of the sun for a given location
 
 ```sh
-suncalc-cli -v azimuth -l 52.5072111,13.1449592,10
+suncalc-cli -v azimuth -l 52.5072111,13.1449592
 ```
 
 ### Get sunrise time of the sun for tomorrow for a given location
 
 ```sh
-suncalc-cli -v sunset -l 52.5072111,13.1449592,10 -d tomorrow
+suncalc-cli -v sunset -l 52.5072111,13.1449592 -d tomorrow
 ```
 
 ## License
