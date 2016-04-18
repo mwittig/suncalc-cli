@@ -20,7 +20,7 @@ $ npm install -g mwittig/suncalc-cli
 ### Options:
 
 ```sh
-    Usage: suncalc-cli [options]    
+    Usage: suncalc [options]    
     -h, --help                            output usage information
     -V, --version                         output the version number
     -v, --value [value]                   One of azimuth|altitude|sunrise|sunset (defaults to azimuth)
@@ -36,15 +36,15 @@ The date option is optional, defaults to the current datetime.
 ### Get the azimuth of the sun for a given location
 
 ```sh
-suncalc-cli -v azimuth -l 52.5072111,13.1449592
+suncalc -v azimuth -l 52.5072111,13.1449592
 ```
 
 ### Get sunrise time of the sun for tomorrow for a given location
 
 ```sh
-suncalc-cli -v sunset -l 52.5072111,13.1449592 -d tomorrow
+suncalc -v sunset -l 52.5072111,13.1449592 -d tomorrow
 ```
 
-## License
+## License and prior art
 
 Original suncalc-cli code: Apache-2.0 © [Tim Klingeleers](http://tim.klingeleers.be)
